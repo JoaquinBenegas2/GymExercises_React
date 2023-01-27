@@ -1,0 +1,38 @@
+.body-part {
+    padding: 48px 0;
+    margin: 0 36px;
+    cursor: pointer;
+    color: #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(135deg, #495AFF 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, #495AFF 100%) 1;
+    transition: all ease-in-out .17s;
+}
+.body-part:hover {
+    color: #FFF;
+}
+
+.body-part.active {
+    color: #FFF;
+}
+
+.body-part i {
+    font-size: 56px;
+}
+
+.body-part p {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.exercise {
+    height: 100%;
+    margin: 0 36px;
+    padding: 18px 0 0 0;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.main-slideshow {
+    width: 90%;
+    max-width: 1200px;
+    margin: 48px auto;
+    overflow: hidden;
+} 
+
+/*
+.main-slideshow-container {
+    position: relative;
+}
+
+.slideshow-container{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+*/
+
+.controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.controls button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    transition: all ease-in-out .12s;
+}
+.controls button:hover {
+    color: #495AFF;
+}
+
+.carousel-button-group {
+    position: absolute;
+}
